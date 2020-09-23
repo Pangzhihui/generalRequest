@@ -1,7 +1,7 @@
 # <center>通用的api调用方法<center>
 
 ### restful接口格式规范:
-##### http(s)://ip:prt/应用名/模块名/ ``` +[get][post]-[url][json]``` /具体业务名 
+##### http(s)://ip:prt/应用名/模块名/ ```diff -[get][post]-[url][json]``` /具体业务名 
  
 ps：请注意红色区域规则
 
@@ -13,7 +13,7 @@ ps：请注意红色区域规则
 
 http.js
 
-```
+`"
 const http = function (parA, parB, parC, parD) {
 	let url = ''  //url地址 ***必传***
 	let params = null  //请求参数 要求json格式 
@@ -22,7 +22,7 @@ const http = function (parA, parB, parC, parD) {
 	...
 }
 export default http
-```
+`"
 
 返回值：返回一个prosmise对象
 
