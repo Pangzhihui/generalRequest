@@ -19,7 +19,7 @@ const http = function (parA, parB, parC, parD) {
 	let params = null  //请求参数 要求json格式 
 	let methodType = ''  //请求类型：post/delete/put/get
 	let paramsType = ''  //传参类型：url/json  
-	... //javascipt
+	... 
 }
 export default http
 ```
@@ -35,7 +35,7 @@ import http from './assets/api/http.js'
 import xhr from './assets/api/apiserver.js'
 
 Vue.prototype.$http = http
-Vue.prototype.$xhr = xhr //javascript
+Vue.prototype.$xhr = xhr 
 
 ```
 
@@ -53,7 +53,7 @@ this.$http('/cloudbus/refCheck/get-url/getRefCheckPageList',{
   })
   .catch(function (error) {
     console.log(error);
-  }); //javascript
+  });
 ```
 <font color=#46ace8>接口为非规范格式时，注意提供第三和第四个参数：</font>
 
@@ -67,7 +67,7 @@ this.$http('/cloudbus/refCheck/getRefCheckPageList',{
   })
   .catch(function (error) {
     console.log(error);
-  }); //javascript
+  });
 ```
 
 
@@ -85,6 +85,6 @@ this.$xhr.get('/cloudbus/refCheck/getRefCheckPageList',{
     console.log(response);
 }).catch(function (error) {
     console.log(error);
-}); //javascript
+});
 
 ```
