@@ -1,7 +1,7 @@
 # <center>通用的api调用方法<center>
 
 ### restful接口格式规范:
-##### http(s)://ip:prt/应用名/模块名/ <font color=red >[get][post]-[url][json]</font> /具体业务名 
+##### http(s)://ip:prt/应用名/模块名/ <font style="color:red;" >[get][post]-[url][json]</font> /具体业务名 
  
 ps：请注意红色区域规则
 
