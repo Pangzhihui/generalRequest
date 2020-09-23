@@ -56,10 +56,7 @@ this.$http('/cloudbus/refCheck/get-url/getRefCheckPageList',{
 <font color=#46ace8>接口为非规范格式时，注意提供第三和第四个参数：</font>
 
 ```javascript
-this.$http('/cloudbus/refCheck/getRefCheckPageList',{
-    firstName: 'Fred',
-    lastName: 'Flintstone'
-  },'get','url')
+this.$http('/cloudbus/refCheck/getRefCheckPageList',{firstName: 'Fred',lastName: 'Flintstone'},'get','url')
   .then(function (response) {
     console.log(response);
   })
