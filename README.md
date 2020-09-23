@@ -1,7 +1,7 @@
 # <center>通用的api调用方法<center>
 
 ### restful接口格式规范:
-##### http(s)://ip:prt/应用名/模块名/<font color=red>[get][post]-[url][json]</font> /具<span style="color:red;">体</sapn>业<font color="red">务名 </font>
+##### http(s)://ip:prt/应用名/模块名/<font color=red>[get][post]-[url][json]</font> /具<span style="color:red;">体</span>业<font color="red">务名 </font>
  
 ps：请注意红色区域规则
 
@@ -13,7 +13,7 @@ ps：请注意红色区域规则
 
 http.js
 
-```javascipt
+```javascript
 const http = function (parA, parB, parC, parD) {
 	let url = ''  //url地址 ***必传***
 	let params = null  //请求参数 要求json格式 
