@@ -30,12 +30,12 @@ export default http
 
 <font color=#3366FF>1.在main.js文件中引入http和xhr，并在Vue原型上进行定义</font>
 
-```javascipt
+```javascript
 import http from './assets/api/http.js'
 import xhr from './assets/api/apiserver.js'
 
 Vue.prototype.$http = http
-Vue.prototype.$xhr = xhr //javascipt
+Vue.prototype.$xhr = xhr //javascript
 
 ```
 
@@ -43,7 +43,7 @@ Vue.prototype.$xhr = xhr //javascipt
 
 <font color=#46ace8>接口为规范格式时：</font>    
        
-```javascipt
+```javascript
 this.$http('/cloudbus/refCheck/get-url/getRefCheckPageList',{
     firstName: 'Fred',
     lastName: 'Flintstone'
@@ -53,11 +53,11 @@ this.$http('/cloudbus/refCheck/get-url/getRefCheckPageList',{
   })
   .catch(function (error) {
     console.log(error);
-  }); //javascipt
+  }); //javascript
 ```
 <font color=#46ace8>接口为非规范格式时，注意提供第三和第四个参数：</font>
 
-```javascipt
+```javascript
 this.$http('/cloudbus/refCheck/getRefCheckPageList',{
     firstName: 'Fred',
     lastName: 'Flintstone'
@@ -67,7 +67,7 @@ this.$http('/cloudbus/refCheck/getRefCheckPageList',{
   })
   .catch(function (error) {
     console.log(error);
-  }); //javascipt
+  }); //javascript
 ```
 
 
@@ -75,7 +75,7 @@ this.$http('/cloudbus/refCheck/getRefCheckPageList',{
 <font color=#46ace8>同时，也兼容以前的api调用方式：</font>
 	
 
-```javascipt
+```javascript
 this.$xhr.get('/cloudbus/refCheck/getRefCheckPageList',{
     params:{
       firstName: 'Fred',
@@ -85,6 +85,6 @@ this.$xhr.get('/cloudbus/refCheck/getRefCheckPageList',{
     console.log(response);
 }).catch(function (error) {
     console.log(error);
-}); //javascipt
+}); //javascript
 
 ```
