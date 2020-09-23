@@ -1,7 +1,7 @@
 # <center>通用的api调用方法<center>
 
 ### restful接口格式规范:
-##### http(s)://ip:prt/应用名/模块名/ ```diff -[get][post]-[url][json]``` /具体业务名 
+##### http(s)://ip:prt/应用名/模块名/<font color=red>[get][post]-[url][json]</font> /具<span style="color:red;">体</sapn>业<font color="red">务名 </font>
  
 ps：请注意红色区域规则
 
@@ -36,9 +36,7 @@ import xhr from './assets/api/apiserver.js'
 
 Vue.prototype.$http = http
 Vue.prototype.$xhr = xhr 
-
 ```
-
 <font color=#3366FF>2.在页面中调用</font>
 
 <font color=#46ace8>接口为规范格式时：</font>    
