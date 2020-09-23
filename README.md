@@ -3,7 +3,7 @@
 ### restful接口格式规范:
 http(s)://ip:prt/应用名/模块名/ ***[get][post]-[url][json]*** /具体业务名
  
-ps：请注意红色区域规则
+ps：请注意斜体区域规则
 
 示例：http: //localhost:8080/cloudbus/common/<font color=red >***get-url***</font>/getEnumDic
 
