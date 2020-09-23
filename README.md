@@ -3,6 +3,8 @@
 ### restful接口格式规范:
 ##### http(s)://ip:prt/应用名/模块名/<font color=red>[get][post]-[url][json]</font> /具<span style="color:red;">体</span>业<font color="red">务名 </font>
  
+ <span style="color: green"> Some green text </span> 
+ 
 ps：请注意红色区域规则
 
 示例：http://localhost:8080/cloudbus/common/<font color=red >get-url</font>/getEnumDic
